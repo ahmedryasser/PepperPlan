@@ -15,7 +15,7 @@ namespace PepperPlan.Controllers
             var list = db.Classes.ToList();
             return View(list);
         }
-
+        //rffafifaeioerbvboerivbervnerikvnerlvknejkjbEJWEBB
         public ActionResult Create()
         {
             ViewBag.Message = "Your application description page.";
