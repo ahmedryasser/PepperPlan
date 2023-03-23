@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Antlr.Runtime;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,19 +9,21 @@ namespace PepperPlan.Controllers
 {
     public class HomeController : Controller
     {
+        MVCCRUDDB db = new MVCCRUDDB();
         public ActionResult Index()
         {
-            return View();
+            var list = db.Classes.ToList();
+            return View(list);
         }
 
-        public ActionResult About()
+        public ActionResult Create()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Create(Class _class)
         {
             ViewBag.Message = "Your contact page.";
 
