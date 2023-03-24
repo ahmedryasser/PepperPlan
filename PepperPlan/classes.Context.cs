@@ -7,24 +7,24 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PepperPlan
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
+//namespace PepperPlan
+//{
+//    using System;
+//    using System.Data.Entity;
+//    using System.Data.Entity.Infrastructure;
     
-    public partial class MVCCRUDDB : DbContext
-    {
-        public MVCCRUDDB()
-            : base("name=MVCCRUDDB")
-        {
-        }
+//    public partial class MVCCRUDDB : DbContext
+//    {
+//        public MVCCRUDDB()
+//            : base("name=MVCCRUDDB")
+//        {
+//        }
     
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
+//        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+//        {
+//            throw new UnintentionalCodeFirstException();
+//        }
     
-        public virtual DbSet<Class> Classes { get; set; }
-    }
-}
+//        public virtual DbSet<Class> Classes { get; set; }
+//    }
+//}

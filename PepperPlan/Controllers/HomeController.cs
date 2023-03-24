@@ -9,11 +9,11 @@ namespace PepperPlan.Controllers
 {
     public class HomeController : Controller
     {
-        MVCCRUDDB db = new MVCCRUDDB();
+        //MVCCRUDDB db = new MVCCRUDDB();
         public ActionResult Index()
         {
-            var list = db.Classes.ToList();
-            return View(list);
+            //var list = db.Classes.ToList();
+            return View();
         }
         //rffafifaeioerbvboerivbervnerikvnerlvknejkjbEJWEBB
         public ActionResult Create()
