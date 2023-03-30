@@ -3,10 +3,105 @@
 }
 
 <main>
-    <section class="row" aria-labelledby="aspnetTitle">
+    <section class="row title" aria-labelledby="aspnetTitle">
         <h1 id="title">PepperPlan</h1>
-        <p class="lead">PepperPlan Helps you create and edit your 4 year plan. It also you move classes around while checking for prerequisites!</p>
+        @*<p class="lead">PepperPlan helps you create and edit your 4 year plan. It also lets you move classes around while checking for prerequisites!</p>*@
         @*<p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>*@
     </section>
+    <section class="row plan">
+        <section class="year">
+            <section>
+                <h5>Fall 22/23 </h5>
+                <div class="container-lg">
+                    <div class="draggable" draggable="true"><p> COSC 320 </p> </div>
+                    <div class="draggable" draggable="true"><p> COSC 210 </p>  </div>
+                    <div class="draggable" draggable="true"><p> ENG 380 </p>  </div>
+                </div>
+            </section>
+            <section>
+                <h5>Spring 23/24 </h5>
+                <div class="container-lg">
+                    <div class="draggable" draggable="true"> <p> COSC 450 </p>  </div>
+                </div>
+            </section>
+            <section>
+                <h5>Summer 23/24 </h5>
+                <div class="container-lg">
+                    <div class="draggable" draggable="true"> <p> COSC 465 </p>  </div>
+                    <div class="draggable" draggable="true"> <p> HUM 101 </p>  </div>
+                    <div class="draggable" draggable="true"> <p> HUM 212 </p>  </div>
+                    <div class="draggable" draggable="true"> <p> HUM 313 </p>  </div>
 
+
+                </div>
+            </section>
+        </section>
+        <section class="year">
+            <section>
+                <h5>Fall 23/24 </h5>
+                <div class="container-lg">
+
+                </div>
+            </section>
+            <section>
+                <h5>Spring 24/25 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+            <section>
+                <h5>Summer 24/25 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+        </section>
+        <section class="year">
+            <section>
+                <h5>Fall 24/25 </h5>
+                <div class="container-lg">
+
+                </div>
+            </section>
+            <section>
+                <h5>Spring 25/26 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+            <section>
+                <h5>Summer 25/26 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+        </section>
+        <section class="year">
+            <section>
+                <h5>Fall 25/26 </h5>
+                <div class="container-lg">
+
+                </div>
+            </section>
+            <section>
+                <h5>Spring 26/27 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+            <section>
+                <h5>Summer 26/27 </h5>
+                <div class="container-lg">
+                </div>
+            </section>
+        </section>
+        </section>
+    <section class="alternative">
+        <h5> Alternative Classes</h5>
+        <div class="container-lg">
+
+        </div>
+    </section>
+    <section class="major">
+        @* Write code for Major section here*@
+    </section>
+    <section class="units-counter">
+        @* Write code for Units counter here*@
+    </section>
 </main>
+<script src="~/Scripts/DragDrop.js"></script>
