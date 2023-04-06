@@ -30,6 +30,17 @@ textarea {
 .alternative.container-lg{
     min-height:500px;
 }
+.container-sm {
+    padding: 2px;
+    margin: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 175px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 .draggable {
     padding: 2px;
     margin: 6px;
@@ -74,7 +85,6 @@ main {
 
 .major {
     grid-area: 1 / 1 / 4 / 2;
-    border:2px solid;
 }
 
 .units-counter {
