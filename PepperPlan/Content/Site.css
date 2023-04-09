@@ -89,10 +89,15 @@ textarea {
     grid-area: 4 / 1 / 6 / 2;
 }
 
+
 .form-select {
-    margin-bottom:50px;
+    margin-bottom: 20px;
 }
 
 .semester-box {
-    margin-bottom:50px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-top: 20px;
 }
