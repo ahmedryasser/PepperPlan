@@ -190,7 +190,8 @@
       <DependentUpon>classes.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Scripts\ComputerScienceMajor.js" />
+    <Content Include="Scripts\CoveredMajors\AddClasses.js" />
+    <Content Include="Scripts\CoveredMajors\ComputerScienceMajor.js" />
     <Content Include="Scripts\DragDrop.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -216,7 +217,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\BusinessAdministration.js" />
+    <Content Include="Scripts\CoveredMajors\BusinessAdministration.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

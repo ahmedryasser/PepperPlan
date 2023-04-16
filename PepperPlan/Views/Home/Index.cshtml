@@ -102,44 +102,34 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-
                 <h5>Major</h5>
-
                 <select id="major" class="form-select">
                     <option selected>Please choose your major</option>
-                    <option value="actual value 1">Business Admin</option>
+                    <option value="BA">Business Admin</option>
                     <option value="COSC/MA">Computer Science/Math</option>
-                    <option value="actual value 3">Psychology</option>
+                    <option value="PSYC">Psychology</option>
+                    
                 </select>
-
-
 
                 <h5>Minor</h5>
 
                 <select class="form-select">
                     <option selected>Please choose your minor</option>
-                    <option value="actual value 1">Business Admin</option>
-                    <option value="actual value 2">Computer Science</option>
-                    <option value="actual value 3">Psychology</option>
                 </select>
-
 
                 <h5>Freshman Year</h5>
 
-                <select class="form-select">
+                <select id="year" class="form-select">
                     <option selected>Please choose your year</option>
-                    <option value="actual value 1"> 2021-22 </option>
-                    <option value="actual value 2"> 2022-23</option>
-                    <option value="actual value 3"> 2023-24</option>
+                    <option value="2020/21"> 2020-21 </option>
+                    <option value="2021/22"> 2021-22 </option>
+                    <option value="2022/23"> 2022-23</option>
+                    <option value="2023/24"> 2023-24</option>
                 </select>
-
                 <br />
-                <button onclick="addBAClasses();" type="submit" class="btn btn-primary">Generate</button>
+                <button onclick="pickClass();" type="submit" class="btn btn-primary">Generate</button>
 
             </div>
-
-
-
             <div class="Fall col-lg-2 ">
                 <div id="fall1" class="card semester-box">
                     <div class="card-header">
@@ -198,40 +188,34 @@
             </div>
 
             <div class="summer col-lg-2">
-                <div class="card semester-box">
+                <div id="summer1" class="card semester-box">
                     <div class="card-header">
                         Summer 2022
                     </div>
 
 
                 </div>
-                <div class="card semester-box">
+                <div id="summer2" class="card semester-box">
                     <div class="card-header">
                         Summer 2023
                     </div>
-
-
                 </div>
 
-                <div class="card semester-box">
+                <div id="summer3" class="card semester-box">
                     <div class="card-header">
                         Summer 2024
                     </div>
-
                 </div>
-
-                <div class="card semester-box">
+                <div id="summer4" class="card semester-box">
                     <div class="card-header">
                         Summer 2025
                     </div>
-
                 </div>
             </div>
-
             <div class="alternative col-lg-2">
-                <div class="card semester-box">
+                <div id="alternative" class="card semester-box">
                     <div class="card-header">
-                        Alternative Classes
+                        Alternatives
                     </div>
 
                 </div>
@@ -251,6 +235,8 @@
 
     </section>-->
 </main>
-<script src="~/Scripts/ComputerScienceMajor.js"></script>
-<script src="~/Scripts/BusinessAdministration.js"></script>
+<script src="~/Scripts/CoveredMajors/ComputerScienceMajor.js"></script>
+<script src="~/Scripts/CoveredMajors/BusinessAdministration.js"></script>
+<script src="~/Scripts/CoveredMajors/AddClasses.js"></script>
+@*Add Script Name*@
 <script src="~/Scripts/DragDrop.js"></script>

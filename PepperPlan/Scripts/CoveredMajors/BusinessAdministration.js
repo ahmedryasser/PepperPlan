@@ -1,18 +1,14 @@
-﻿//function generateClasses() {
-//    document.getElementById("major");
-//}
-
-
-
-function addCSClasses() {
-    CSfall1();
-    CSspring1();
-    CSfall2();
-    CSspring2();
-    CSfall3();
-    CSspring3();
-    CSfall4();
-    CSspring4();
+﻿function addBAClasses() {
+    clearClasses();
+    addYear();
+    BAfall1();
+    BAspring1();
+    BAfall2();
+    BAspring2();
+    BAfall3();
+    BAspring3();
+    BAfall4();
+    BAspring4();
     implementDragDrop();
 }
 function createPElement() {
@@ -27,45 +23,45 @@ function addClass(classes, semester) {
         classTemp.innerText = subject;
         semester.appendChild(classTemp);
     });
-    
+
 }
-function CSfall1() {
-    fall1 = ["COSC 101", "ECON 101", "GSCO 199", "REL 101", "MATH 220"]
+function BAfall1() {
+    fall1 = ["Math 140", "ENG 101", "GSCO 199", "REL 101", "SPAN 151"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
-function CSspring1() {
-    spring1 = ["HUM 111", "COM 180", "MUS 110", "COSC 121", "MATH 221", "MATH 150"]
+function BAspring1() {
+    spring1 = ["HUM 111", "BA 212", "SOC 200", "COM 180", "MATH 141", "SPAN 152"]
     var semester = document.getElementById("spring1");
     addClass(spring1, semester);
 }
-function CSfall2() {
-    fall2 = ["MATH 151", "COSC 320", "ENG 101", "HIST 204"]
+function BAfall2() {
+    fall2 = ["BA 210", "BA 216", "HUM 11", "REL 102", "SPAN 251"]
     var semester = document.getElementById("fall2");
     addClass(fall2, semester);
 }
-function CSspring2() {
-    spring2 = ["MATH 250", "COSC 330", "GSGS200", "REL 102", "PSYC 200"]
+function BAspring2() {
+    spring2 = ["AC 224", "ECON 211", "HUM 212", "MUS 106", "BIOL 105"]
     var semester = document.getElementById("spring2");
     addClass(spring2, semester);
 }
-function CSfall3() {
-    fall3 = ["COSC 450", "ARBC 251", "REL 301", "PHYS 210"]
+function BAfall3() {
+    fall3 = ["AC 225", "BA 321", "BA 355", "HUM 313", "POSC 104"]
     var semester = document.getElementById("fall3");
     addClass(fall3, semester);
 }
-function CSspring3() {
-    spring3 = ["MATH 260", "POSC 104", "COSC 425", "HUM 212"]
+function BAspring3() {
+    spring3 = ["BA 454", "BA 352", "REL 301", "HIST 204", "ENG 380"]
     var semester = document.getElementById("spring3");
     addClass(spring3, semester);
 }
-function CSfall4() {
-    fall4 = ["COSC 475", "ARTH 442", "HUM 313", "MATH 365", "COSC 495"]
+function BAfall4() {
+    fall4 = ["BA 358", "BA 452", "BA 498", "HIST 409", "BA 350"]
     var semester = document.getElementById("fall4");
     addClass(fall4, semester);
 }
-function CSspring4() {
-    spring4 = ["COSC 490", "MATH 316", "COSC 210", "ENG 380", "COSC 495"]
+function BAspring4() {
+    spring4 = ["BA 497", "BA 451", "BA 470", "BA 474"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
 }
