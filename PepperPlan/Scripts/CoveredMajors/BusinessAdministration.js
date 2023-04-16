@@ -13,7 +13,7 @@
 }
 function createPElement() {
     var classTemp = document.createElement("p");
-    classTemp.classList.add("list-group-item", "draggable");
+    classTemp.classList.add("draggable");
     classTemp.draggable = true;
     return classTemp;
 }
