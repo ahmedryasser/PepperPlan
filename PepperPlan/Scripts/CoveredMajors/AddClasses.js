@@ -13,11 +13,17 @@ function createPElement() {
     return classTemp;
 }
 function pickClass() {
-    var dropdownValue = document.getElementById("major").value;
-    if (dropdownValue == "COSC/MA") {addCSClasses();}
-    else if (dropdownValue == "BA") {addBAClasses(); }
-    //Add option
-    else { console.log("Not Implemented"); }
+    var year = document.getElementById("year").value;
+    if (year != "none") {
+        var dropdownValue = document.getElementById("major").value;
+        if (dropdownValue == "COSC/MA") { addCSClasses(); }
+        else if (dropdownValue == "BA") { addBAClasses(); }
+        //Add option
+        else { console.log("Not Implemented"); }
+    }
+    else {
+        alert("Please enter a start date")
+    }
 }
 
 function clearClasses() {
@@ -30,38 +36,40 @@ function clearClasses() {
 }
 function addYear() {
     var year = document.getElementById("year").value;
-    currYear = createYear("fall", year);
-    document.getElementById("fall1").appendChild(currYear);
-    currYear = createYear("spring", year);
-    document.getElementById("spring1").appendChild(currYear);
-    currYear = createYear("summer", year);
-    document.getElementById("summer1").appendChild(currYear);
-    year = addOneYear(year)
-    currYear = createYear("fall", year);
-    document.getElementById("fall2").appendChild(currYear);
-    currYear = createYear("spring", year);
-    document.getElementById("spring2").appendChild(currYear);
-    currYear = createYear("summer", year);
-    document.getElementById("summer2").appendChild(currYear);
-    year = addOneYear(year)
-    currYear = createYear("fall", year);
-    document.getElementById("fall3").appendChild(currYear);
-    currYear = createYear("spring", year);
-    document.getElementById("spring3").appendChild(currYear);
-    currYear = createYear("summer", year);
-    document.getElementById("summer3").appendChild(currYear);
-    year = addOneYear(year)
-    currYear = createYear("fall", year);
-    document.getElementById("fall4").appendChild(currYear);
-    currYear = createYear("spring", year);
-    document.getElementById("spring4").appendChild(currYear);
-    currYear = createYear("summer", year);
-    document.getElementById("summer4").appendChild(currYear);
+    if (year != "none") {
+        currYear = createYear("fall", year);
+        document.getElementById("fall1").appendChild(currYear);
+        currYear = createYear("spring", year);
+        document.getElementById("spring1").appendChild(currYear);
+        currYear = createYear("summer", year);
+        document.getElementById("summer1").appendChild(currYear);
+        year = addOneYear(year)
+        currYear = createYear("fall", year);
+        document.getElementById("fall2").appendChild(currYear);
+        currYear = createYear("spring", year);
+        document.getElementById("spring2").appendChild(currYear);
+        currYear = createYear("summer", year);
+        document.getElementById("summer2").appendChild(currYear);
+        year = addOneYear(year)
+        currYear = createYear("fall", year);
+        document.getElementById("fall3").appendChild(currYear);
+        currYear = createYear("spring", year);
+        document.getElementById("spring3").appendChild(currYear);
+        currYear = createYear("summer", year);
+        document.getElementById("summer3").appendChild(currYear);
+        year = addOneYear(year)
+        currYear = createYear("fall", year);
+        document.getElementById("fall4").appendChild(currYear);
+        currYear = createYear("spring", year);
+        document.getElementById("spring4").appendChild(currYear);
+        currYear = createYear("summer", year);
+        document.getElementById("summer4").appendChild(currYear);
 
-    var classTemp = document.createElement("div");
-    classTemp.classList.add("card-header");
-    classTemp.innerText = "Alternatives";
-    document.getElementById("alternative").appendChild(classTemp);
+        var classTemp = document.createElement("div");
+        classTemp.classList.add("card-header");
+        classTemp.innerText = "Alternatives";
+        document.getElementById("alternative").appendChild(classTemp);
+    }
 }
 function addOneYear(year) {
     var newYear = parseInt(year.substring(0, 4)) + 1;
