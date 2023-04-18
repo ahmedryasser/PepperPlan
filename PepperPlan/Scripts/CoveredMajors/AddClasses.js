@@ -13,17 +13,36 @@ function createPElement() {
     return classTemp;
 }
 function pickClass() {
+<<<<<<< Updated upstream
     var year = document.getElementById("year").value;
     if (year != "none") {
         var dropdownValue = document.getElementById("major").value;
         if (dropdownValue == "COSC/MA") { addCSClasses(); }
         else if (dropdownValue == "BA") { addBAClasses(); }
+        else if (dropdownValue == "ADV") { addADVClasses(); }
+        else if (dropdownValue == "SA") { addSAClasses(); }
+        else if (dropdownValue == "ENG") { addENGClasses(); }
+        else if (dropdownValue == "ART") { addARTClasses(); }
+        else if (dropdownValue == "ARTH") { addARTHClasses(); }
+        else if (dropdownValue == "MUS") { addMUSClasses(); }
+        else if (dropdownValue == "HIST") { addHISTClasses(); }
         //Add option
         else { console.log("Not Implemented"); }
     }
     else {
         alert("Please enter a start date")
     }
+=======
+    var dropdownValue = document.getElementById("major").value;
+    if (dropdownValue == "COSC/MA") {addCSClasses();}
+    else if (dropdownValue == "BA") { addBAClasses(); }
+    else if (dropdownValue == "ADV") { addAdvertisingClasses(); }
+    else if (dropdownValue == "SA") { addScreenArtsClasses(); }
+    else if (dropdownValue == "ENG") { addSAClasses(); }
+    else if (dropdownValue == "ART") { addENGClasses(); }
+    //Add option
+    else { console.log("Not Implemented"); }
+>>>>>>> Stashed changes
 }
 
 function clearClasses() {

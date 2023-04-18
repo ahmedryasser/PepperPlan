@@ -218,6 +218,13 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\CoveredMajors\BusinessAdministration.js" />
+    <Content Include="Scripts\CoveredMajors\Advertising.js" />
+    <Content Include="Scripts\CoveredMajors\ScreenArts.js" />
+    <Content Include="Scripts\CoveredMajors\English.js" />
+    <Content Include="Scripts\CoveredMajors\Art.js" />
+    <Content Include="Scripts\CoveredMajors\ArtHistory.js" />
+    <Content Include="Scripts\CoveredMajors\Music.js" />
+    <Content Include="Scripts\CoveredMajors\History.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
