@@ -13,7 +13,7 @@
 }
 //Unfinished, need to updated classes
 function HISTfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "HIST 200", "HIST 204"]
+    fall1 = ["GSSO 199", "ECON 200", "HIST 200", "HIST 204"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
@@ -48,7 +48,7 @@ function HISTfall4() {
     addClass(fall4, semester);
 }
 function HISTspring4() {
-    spring4 = ["HIST 390", "ELECTIVE", "ELECTIVE", "ELECTIVE"]
+    spring4 = ["HIST 390", "POSC 205", "COM 200", "MATH 140"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
 }

@@ -12,7 +12,7 @@
     implementDragDrop();
 }
 function ARTHfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "ARTH 200", "POSC 104"]
+    fall1 = ["GSSO 199", "ECON 200", "ARTH 200", "POSC 104"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }

@@ -12,7 +12,7 @@
     implementDragDrop();
 }
 function MUSfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "MUS 111", "MUS 115"]
+    fall1 = ["GSSO 199", "ECON 200", "MUS 111", "MUS 115"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
@@ -42,12 +42,12 @@ function MUSspring3() {
     addClass(spring3, semester);
 }
 function MUSfall4() {
-    fall4 = ["BIOL 106", "HUM 313", "MATH 120", "MUS 475"]
+    fall4 = ["BIOL 106", "HUM 313", "MATH 120", "ARTH 200"]
     var semester = document.getElementById("fall4");
     addClass(fall4, semester);
 }
 function MUSspring4() {
-    spring4 = ["MUS 492", "ELECTIVE", "ELECTIVE", "MUS 392"]
+    spring4 = ["MUS 492", "MUS 475", "ART 101", "MUS 392"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
 }

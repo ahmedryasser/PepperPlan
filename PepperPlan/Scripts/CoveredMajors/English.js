@@ -13,7 +13,7 @@
 }
 
 function ENGfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "ENG 201", "ENG 205", "ENG 205L"]
+    fall1 = ["GSSO 199", "ECON 200", "ENG 201", "ENG 205", "ENG 205L"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
@@ -48,7 +48,7 @@ function ENGfall4() {
     addClass(fall4, semester);
 }
 function ENGspring4() {
-    spring4 = ["ENG 490", "ELECTIVE", "ELECTIVE", "ENG 495"]
+    spring4 = ["ENG 490", "ART 101", "ENG 313", "ENG 495"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
 }

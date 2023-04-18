@@ -12,7 +12,7 @@
     implementDragDrop();
 }
 function SAfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "SART 201", "SART 202", "POSC 104"]
+    fall1 = ["GSSO 199", "ECON 200", "SART 201", "SART 202", "POSC 104"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
@@ -47,7 +47,7 @@ function SAfall4() {
     addClass(fall4, semester);
 }
     function SAspring4() {
-        spring4 = ["SART 495", "SART 496", "SART 497", "4-Unit ELECTIVE", "4-Unit ELECTIVE"]
+        spring4 = ["SART 495", "SART 496", "SART 497", "ART 101", "COM 240"]
         var semester = document.getElementById("spring4");
         addClass(spring4, semester);
     }

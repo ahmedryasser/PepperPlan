@@ -12,7 +12,7 @@
     implementDragDrop();
 }
 function ARTfall1() {
-    fall1 = ["SEMINAR", "ECON 200", "ART 101", "ART 103"]
+    fall1 = ["GSSO 199", "ECON 200", "ART 101", "ART 103"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
@@ -47,7 +47,7 @@ function ARTfall4() {
     addClass(fall4, semester);
 }
 function ARTspring4() {
-    spring4 = ["ART 436", "ART 494", "ELECTIVE", "ELECTIVE"]
+    spring4 = ["ART 436", "ART 494", "ARTH 200", "MUS 111"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
 }
