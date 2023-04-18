@@ -10,7 +10,7 @@
     ARTHfall4();
     ARTHspring4();
     implementDragDrop();
-
+}
 function ARTHfall1() {
     fall1 = ["SEMINAR", "ECON 200", "ARTH 200", "POSC 104"]
     var semester = document.getElementById("fall1");
@@ -50,3 +50,4 @@ function ARTHspring4() {
     spring4 = ["CAPSTONE", "ARTH 440", "ARTH 490", "ARTH 442"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
+}

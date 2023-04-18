@@ -50,3 +50,4 @@ function MUSspring4() {
     spring4 = ["MUS 492", "ELECTIVE", "ELECTIVE", "MUS 392"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
+}

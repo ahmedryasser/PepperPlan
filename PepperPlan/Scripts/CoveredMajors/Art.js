@@ -50,4 +50,4 @@ function ARTspring4() {
     spring4 = ["ART 436", "ART 494", "ELECTIVE", "ELECTIVE"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
-
+}

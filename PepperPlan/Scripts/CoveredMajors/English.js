@@ -51,3 +51,4 @@ function ENGspring4() {
     spring4 = ["ENG 490", "ELECTIVE", "ELECTIVE", "ENG 495"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
+}

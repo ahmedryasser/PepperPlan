@@ -38,7 +38,7 @@ function HISTfall3() {
     addClass(fall3, semester);
 }
 function HISTspring3() {
-    spring3 = ["JWP", "THEA 210", "ENG 380", "HIST 423", "HIST 429]
+    spring3 = ["JWP", "THEA 210", "ENG 380", "HIST 423", "HIST 429"]
     var semester = document.getElementById("spring3");
     addClass(spring3, semester);
 }
@@ -51,3 +51,4 @@ function HISTspring4() {
     spring4 = ["HIST 390", "ELECTIVE", "ELECTIVE", "ELECTIVE"]
     var semester = document.getElementById("spring4");
     addClass(spring4, semester);
+}
