@@ -17,7 +17,7 @@ function FILMPfall1() {
     addClass(fall1, semester);
 }
 function FILMPspring1() {
-    spring1 = ["REL 101", "ENG 101", "ITAL 151", "FILM 301", "FILM 480"]
+    spring1 = ["REL 101", "ENG 101", "ITAL 151", "FILM 301"]
     var semester = document.getElementById("spring1");
     addClass(spring1, semester);
 }
