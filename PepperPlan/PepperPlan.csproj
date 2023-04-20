@@ -225,6 +225,10 @@
     <Content Include="Scripts\CoveredMajors\ArtHistory.js" />
     <Content Include="Scripts\CoveredMajors\Music.js" />
     <Content Include="Scripts\CoveredMajors\History.js" />
+    <Content Include="Scripts\CoveredMajors\Accounting.js" />
+    <Content Include="Scripts\CoveredMajors\InternationalBusiness.js" />
+    <Content Include="Scripts\CoveredMajors\PublicRelations.js" />
+    <Content Include="Scripts\CoveredMajors\Econ.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

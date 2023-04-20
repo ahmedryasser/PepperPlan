@@ -11,32 +11,18 @@
     BAspring4();
     implementDragDrop();
 }
-function createPElement() {
-    var classTemp = document.createElement("p");
-    classTemp.classList.add("draggable");
-    classTemp.draggable = true;
-    return classTemp;
-}
-function addClass(classes, semester) {
-    classes.forEach(function (subject) {
-        var classTemp = createPElement();
-        classTemp.innerText = subject;
-        semester.appendChild(classTemp);
-    });
-
-}
 function BAfall1() {
     fall1 = ["Math 140", "ENG 101", "GSCO 199", "REL 101", "SPAN 151"]
     var semester = document.getElementById("fall1");
     addClass(fall1, semester);
 }
 function BAspring1() {
-    spring1 = ["HUM 111", "BA 212", "SOC 200", "COM 180", "MATH 141", "SPAN 152"]
+    spring1 = ["BA 212", "SOC 200", "COM 180", "MATH 141", "SPAN 152"]
     var semester = document.getElementById("spring1");
     addClass(spring1, semester);
 }
 function BAfall2() {
-    fall2 = ["BA 210", "BA 216", "HUM 11", "REL 102", "SPAN 251"]
+    fall2 = ["BA 210", "BA 216", "HUM 111", "REL 102", "SPAN 251"]
     var semester = document.getElementById("fall2");
     addClass(fall2, semester);
 }

@@ -26,6 +26,10 @@ function pickClass() {
         else if (dropdownValue == "ARTH") { addARTHClasses(); }
         else if (dropdownValue == "MUS") { addMUSClasses(); }
         else if (dropdownValue == "HIST") { addHISTClasses(); }
+        else if (dropdownValue == "AC") { addACClasses(); }
+        else if (dropdownValue == "IBA") { addIBAClasses(); }
+        else if (dropdownValue == "PR") { addPRClasses(); }
+        else if (dropdownValue == "ECON") { addECONClasses(); }
         //Add option
         else { console.log("Not Implemented"); }
     }
