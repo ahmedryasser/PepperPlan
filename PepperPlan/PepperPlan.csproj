@@ -229,6 +229,9 @@
     <Content Include="Scripts\CoveredMajors\InternationalBusiness.js" />
     <Content Include="Scripts\CoveredMajors\PublicRelations.js" />
     <Content Include="Scripts\CoveredMajors\Econ.js" />
+    <Content Include="Scripts\CoveredMajors\Film.js" />
+    <Content Include="Scripts\CoveredMajors\FilmP.js" />
+    <Content Include="Scripts\CoveredMajors\FilmW.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

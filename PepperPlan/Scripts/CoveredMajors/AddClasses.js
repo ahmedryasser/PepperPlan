@@ -30,6 +30,9 @@ function pickClass() {
         else if (dropdownValue == "IBA") { addIBAClasses(); }
         else if (dropdownValue == "PR") { addPRClasses(); }
         else if (dropdownValue == "ECON") { addECONClasses(); }
+        else if (dropdownValue == "FILM") { addFILMClasses(); }
+        else if (dropdownValue == "FILMP") { addFILMPClasses(); }
+        else if (dropdownValue == "FILMW") { addFILMWClasses(); }
         //Add option
         else { console.log("Not Implemented"); }
     }

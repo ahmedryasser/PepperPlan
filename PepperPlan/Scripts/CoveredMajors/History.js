@@ -11,7 +11,6 @@
     HISTspring4();
     implementDragDrop();
 }
-//Unfinished, need to updated classes
 function HISTfall1() {
     fall1 = ["GSSO 199", "ECON 200", "HIST 200", "HIST 204"]
     var semester = document.getElementById("fall1");
