@@ -1,4 +1,4 @@
-# Welcome to PepperPlan! Where we take organizing your class scheduling at Pepperdine to another level!
+# Pepperplan: Empowering Academic Success through Innovative Course Planning
 During my time at Pepperdine, a significant challenge came to light: students frequently encountered difficulties in securing time with counselors and effectively devising a strategy to complete their degree within the intended timeframe. This predicament prompted the inception of the following initiative.
 
 Introducing Pepperplan: an ASP.Net Web Application meticulously designed to address the needs of Pepperdine students and counselors. The application's primary objective revolves around seamless access to an extensive database encompassing classes and their prerequisites. This resource empowers users to construct schedules while the application diligently verifies prerequisite fulfillment. Moreover, Pepperplan offers the functionality to generate personalized plans based on factors such as academic year, major, and minor.
